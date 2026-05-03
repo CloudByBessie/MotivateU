@@ -3,6 +3,9 @@
 # ✨ MOTIVATE U ✨  
 ### Created by Bessie Mullins  
 
+
+<img width="800" alt="MOTIVATEU" src="https://github.com/user-attachments/assets/cc6d1ab9-2ee8-4cfb-8dba-572a05ebc6d8" />
+
 </div>
 
 
