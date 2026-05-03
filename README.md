@@ -93,6 +93,13 @@ Designed with:
 
 # 🚀 How to Run
 
+
+## Windows Smart App Control Notice
+
+Because MOTIVATE U is a PowerShell script downloaded from GitHub, Windows Smart App Control or Microsoft Defender may block it as an unknown app. This does not automatically mean the file is harmful; it means Windows does not recognize it as a signed/trusted application.
+
+
+
 ## 1. Save the files: 
 ```powershell
 Basic Version:
@@ -107,3 +114,11 @@ Windows Forms Upgraded Version
 MotivateU2.ps1
 
 The upgraded Windows Forms version of MOTIVATE U. This enhanced edition transforms the project into a full graphical application with clickable mood buttons, improved visual design, color themes, sound effects, expanded motivational paragraphs, daily challenges, and a more interactive user experience.
+
+
+
+To run the script after reviewing the code:
+
+```powershell
+Unblock-File -Path ".\MotivateU2.ps1"
+powershell.exe -STA -ExecutionPolicy Bypass -File ".\MotivateU2.ps1"
